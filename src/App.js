@@ -20,11 +20,11 @@ function App() {
       setPoints(points + 1);
       fetchQ();
     } else {
-      alert("Better luck next time!");
+      alert("Incorrect");
       setLives(lives - 1);
       fetchQ();
       if (lives < 1) {
-        alert("GAME OVER :(");
+        alert("Better luck next time!");
       }
     }
   }
